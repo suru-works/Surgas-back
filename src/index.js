@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 
 const baseURL = require("../config/baseURL.js");
-const models = require("./models");
+const models = require("./models/models");
 const services = require("./services");
 const controllers = require("./controllers");
 
